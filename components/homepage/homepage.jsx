@@ -4,7 +4,7 @@ import HeroSection from './hero-section'
 const Homepage = () => {
   return (
     <>
-  <HeroSection/>
+      <HeroSection/>
     </>
   )
 }
