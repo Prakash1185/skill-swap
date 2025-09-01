@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 
 export function FeatureCards() {
   return (
-    <div className="grid gap-6 md:grid-cols-3">
+    <div className="grid gap-6 md:grid-cols-3 m-2">
       <Card>
         <CardHeader>
           <CardTitle>Skill Exchange</CardTitle>

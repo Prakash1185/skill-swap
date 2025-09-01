@@ -44,7 +44,7 @@
 }
 
 /* Headings */
-h1 {
+h1, p {
   color: var(--secondary); /* blue */
 }
 
@@ -54,19 +54,36 @@ h2, h3 {
 
 
 :root {
+  --primary: #ff8a05; /* orange */
+  --secondary: #155dfc; /* blue */
+}
+
+/* usage */
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  color: white;
+}
+
+
+:root {
   --radius: 0.625rem;
   /* Background changed to white */
-  --background: oklch(0 0 100);
+  --background: oklch(1 0 100);
   --foreground: oklch(0.147 0.004 49.25);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.147 0.004 49.25);
+  --card: #fff; ;
+  --card-foreground: #ff8a05;
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.147 0.004 49.25);
   /* Main color - orange */
-  --primary: oklch(66.255% 0.19894 37.556);
+  --primary: #ff8a05;
   --primary-foreground: oklch(0.98 0.005 100);
   /* Secondary color - blue */
-  --secondary: oklch(0.4 0.2 260); 
+  --secondary: #155dfc;
   --secondary-foreground: oklch(0.95 0.01 270);
   --muted: oklch(0.97 0.001 106.424);
   --muted-foreground: oklch(0.553 0.013 58.071);
@@ -95,15 +112,15 @@ h2, h3 {
   /* Background also white in dark mode */
   --background: oklch(1 0 100);
   --foreground: oklch(0.985 0.001 106.423);
-  --card: oklch(0.216 0.006 56.043);
-  --card-foreground: oklch(0.985 0.001 106.423);
+  --card: #fff;
+  --card-foreground: #ff8a05;
   --popover: oklch(0.216 0.006 56.043);
   --popover-foreground: oklch(0.985 0.001 106.423);
   /* Main color - orange */
-  --primary: oklch(0.48 0.35 85);
+  --primary: #ff8a05;
   --primary-foreground: oklch(0.95 0.01 270);
   /* Secondary color - blue */
-  --secondary: oklch(0.4 0.2 260);
+  --secondary: #155dfc;
   --secondary-foreground: oklch(0.98 0.005 100);
   --muted: oklch(0.268 0.007 34.298);
   --muted-foreground: oklch(0.709 0.01 56.259);
