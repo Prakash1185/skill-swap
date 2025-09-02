@@ -1,7 +1,4 @@
-import { GlobeDemo } from "@/components/homepage/globe-demo"
-import HeroSection from "@/components/homepage/hero-section"
 import Homepage from "@/components/homepage/homepage"
-import Skillsbase from "@/components/Skills/Skillsbase"
 
 export default function Home() {
   return (
